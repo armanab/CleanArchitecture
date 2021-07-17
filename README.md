@@ -86,6 +86,15 @@ If you are running first time Windows 10 [WSL 2 (Windows Subsystem for Linux)](h
 
 `Solution:` Open the Linux WSL 2 terminal `sudo sysctl -w vm.max_map_count=262144` and change the virtual memory for Linux.
 
+### Give a Star
+
+My primary focus in this project is on quality. Creating a good quality product involves a lot of analysis, research and work. It takes a lot of time. If you like this project, learned something or you are using it in your applications, please give it a star :star:.  This is the best motivation for me to continue this work. Thanks!
+
+### Share It
+
+There are very few really good examples of this type of application. If you think this repository makes a difference and is worth it, please share it with your friends and on social networks. I will be extremely grateful.
+
+
 ## Support
 
 If you are having problems, please let us know by [raising a new issue](https://github.com/armanab/CleanArchitecture/issues/new/choose).
