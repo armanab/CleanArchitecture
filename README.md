@@ -69,6 +69,29 @@ This layer contains classes for accessing external resources such as file system
 
 This layer is a web api application based on ASP.NET 5.0.x. This layer depends on both the Application and Infrastructure layers, however, the dependency on Infrastructure is only to support dependency injection. Therefore only Startup.cs should reference Infrastructure.
 
+## Features
+- [x] Event sourcing
+- [x] CQRS with MediatR Library
+- [x] Entity Framework Core - Code First
+- [x] MediatR Pipeline Logging & Validation
+- [x] Swagger UI
+- [x] Response Wrappers
+- [x] Healthchecks
+- [x] Pagination
+- [x] In-Memory Caching
+- [ ] Redis Caching
+- [x] In-Memory Database
+- [x] Microsoft Identity with JWT Authentication
+- [x] Role based Authorization
+- [x] Identity Seeding
+- [x] Database Seeding
+- [x] Custom Exception Handling Middlewares
+- [x] Fluent Validation
+- [x] Automapper
+- [x] SMTP / Mailkit / Sendgrid Email Service
+- [x] Complete User Management Module (Register / Generate Token / Refresh token /Forgot Password / Confirmation Mail)
+- [x] User Auditing
+
 #### Prerequisites
 * Download and Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
