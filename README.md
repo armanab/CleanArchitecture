@@ -29,7 +29,7 @@ This is a solution template for creating Web Api ASP.NET Core following the prin
 
 The template is configured to use an in-memory database by default. This ensures that all users will be able to run the solution without needing to set up additional infrastructure (e.g. SQL Server).
 
-If you would like to use SQL Server, you will need to update **WebUI/appsettings.json** as follows:
+If you would like to use SQL Server, you will need to update **WebApi/appsettings.json** as follows:
 
 ```json
   "UseInMemoryDatabase": false,
