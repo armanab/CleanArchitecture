@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>CleanApplication.Infrastructure</RootNamespace>
+    <AssemblyName>CleanApplication.Infrastructure</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210515224135_InitialCreate2.cs" />
+    <Compile Remove="Migrations\20210515224135_InitialCreate2.Designer.cs" />
+    <Compile Remove="Migrations\20210517211025_addTokenToGuest.cs" />
+    <Compile Remove="Migrations\20210517211025_addTokenToGuest.Designer.cs" />
+    <Compile Remove="Migrations\20210518223714_createdCulomnAddedToUser.cs" />
+    <Compile Remove="Migrations\20210518223714_createdCulomnAddedToUser.Designer.cs" />
+    <Compile Remove="Migrations\20210526225206_refreshTokenAdded.cs" />
+    <Compile Remove="Migrations\20210526225206_refreshTokenAdded.Designer.cs" />
+    <Compile Remove="Migrations\20210526230021_refreshTokenAdded2.cs" />
+    <Compile Remove="Migrations\20210526230021_refreshTokenAdded2.Designer.cs" />
+    <Compile Remove="Migrations\20210530213506_addcontent.cs" />
+    <Compile Remove="Migrations\20210530213506_addcontent.Designer.cs" />
+    <Compile Remove="Migrations\20210530214531_addSetting.cs" />
+    <Compile Remove="Migrations\20210530214531_addSetting.Designer.cs" />
+    <Compile Remove="Migrations\20210531195626_changeContentAndSettingTable.cs" />
+    <Compile Remove="Migrations\20210531195626_changeContentAndSettingTable.Designer.cs" />
+    <Compile Remove="Migrations\20210604212736_AddInstructorImage.cs" />
+    <Compile Remove="Migrations\20210604212736_AddInstructorImage.Designer.cs" />
+    <Compile Remove="Migrations\20210604213039_removeImageStringFromContent.cs" />
+    <Compile Remove="Migrations\20210604213039_removeImageStringFromContent.Designer.cs" />
+    <Compile Remove="Migrations\20210604225052_AddForeignKeyImageToContents.cs" />
+    <Compile Remove="Migrations\20210604225052_AddForeignKeyImageToContents.Designer.cs" />
+    <Compile Remove="Migrations\20210606220713_syncToServer.cs" />
+    <Compile Remove="Migrations\20210606220713_syncToServer.Designer.cs" />
+    <Compile Remove="Migrations\20210607215207_updateImageTable.cs" />
+    <Compile Remove="Migrations\20210607215207_updateImageTable.Designer.cs" />
+    <Compile Remove="Migrations\20210607220925_updateFixextensionColumnNameImageTable.cs" />
+    <Compile Remove="Migrations\20210607220925_updateFixextensionColumnNameImageTable.Designer.cs" />
+    <Compile Remove="Migrations\20210608213208_syncEntitiesWithDocumentDataType.cs" />
+    <Compile Remove="Migrations\20210608213208_syncEntitiesWithDocumentDataType.Designer.cs" />
+    <Compile Remove="Migrations\20210609221728_removeInstructorOnStoryTable.cs" />
+    <Compile Remove="Migrations\20210609221728_removeInstructorOnStoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20210609222421_removeInstructorOnStoryTable1.cs" />
+    <Compile Remove="Migrations\20210609222421_removeInstructorOnStoryTable1.Designer.cs" />
+    <Compile Remove="Migrations\20210611004843_AddManyToManyCourseTag.cs" />
+    <Compile Remove="Migrations\20210611004843_AddManyToManyCourseTag.Designer.cs" />
+    <Compile Remove="Migrations\20210611201121_changeDecimalPriceCourse.cs" />
+    <Compile Remove="Migrations\20210611201121_changeDecimalPriceCourse.Designer.cs" />
+    <Compile Remove="Migrations\20210611201301_script.cs" />
+    <Compile Remove="Migrations\20210611201301_script.Designer.cs" />
+    <Compile Remove="Migrations\20210611201521_script1.cs" />
+    <Compile Remove="Migrations\20210611201521_script1.Designer.cs" />
+    <Compile Remove="Migrations\20210611201758_changeRatingInCourseDecimal.cs" />
+    <Compile Remove="Migrations\20210611201758_changeRatingInCourseDecimal.Designer.cs" />
+    <Compile Remove="Migrations\20210615220918_UpdateApplicationUser.cs" />
+    <Compile Remove="Migrations\20210615220918_UpdateApplicationUser.Designer.cs" />
+    <Compile Remove="Migrations\20210617235451_AddTopicTable.cs" />
+    <Compile Remove="Migrations\20210617235451_AddTopicTable.Designer.cs" />
+    <Compile Remove="Migrations\20210619204101_addedFullDescriptionToCourseAndTheNameColumnSpaceBecameLessOnTopicTable.cs" />
+    <Compile Remove="Migrations\20210619204101_addedFullDescriptionToCourseAndTheNameColumnSpaceBecameLessOnTopicTable.Designer.cs" />
+    <Compile Remove="Migrations\20210621203304_syncToDB.cs" />
+    <Compile Remove="Migrations\20210621203304_syncToDB.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="15.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <!--<PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="5.0.0" />-->
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Runtime.Caching" Version="5.0.0" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistence\Migrations\" />
+  </ItemGroup>
+</Project>
