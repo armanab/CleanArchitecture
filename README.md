@@ -115,6 +115,9 @@ With this library, you can write httpGet api to put any filter you want on it an
 
 The filters and the face of each are in the form of strings . for example filterString : 
 **"CourseId=d1773f09-f17c-4ed0-4e56-08d94509941d¤1µFirstName=Arman¤5µ"**
+This string means that the CourseId is equal to d1773f09-f17c-4ed0-4e56-08d94509941d and the firstName Like Arman.
+
+
 
 1-The first thing must be the name of the entity property(case sensitive) and next " = " .
 
@@ -122,6 +125,13 @@ The filters and the face of each are in the form of strings . for example filter
 
 
 3-" µ " for seprate each filter section .
+
+
+OperationEnum in the library has the following values:
+
+Equal = 1, NotEqual = 2, Contain = 3, NotContain = 4, Like = 5, NotLike = 6, StartsWith = 7, NotStartsWith = 8, EndsWith = 9, NotEndsWith = 10,
+
+GreaterThan = 11, GreaterThanOrEqual = 12, LessThan = 13, LessThanOrEqual = 14, IsNull = 15, IsNotNull = 16, None = 17, HasFlag = 18, HasnotFlag = 19,
 
 ### Give a Star
 
