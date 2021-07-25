@@ -111,6 +111,7 @@ If you are running first time Windows 10 [WSL 2 (Windows Subsystem for Linux)](h
 ### What is ABluePredicateBuilder
 it is library  that like ODATA and you can filter or sort on any entity with paging .
 
+With this library, you can write httpGet api to put any filter you want on it and output it in the collection of pagination.
 
 The filters and the face of each are in the form of strings . for example filterString : 
 **"CourseId=d1773f09-f17c-4ed0-4e56-08d94509941d¤1µFirstName=Arman¤5µ"**
