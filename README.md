@@ -108,6 +108,19 @@ If you are running first time Windows 10 [WSL 2 (Windows Subsystem for Linux)](h
 `Error:` max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
 
 `Solution:` Open the Linux WSL 2 terminal `sudo sysctl -w vm.max_map_count=262144` and change the virtual memory for Linux.
+### What is ABluePredicateBuilder
+it is library  that like ODATA and you can filter or sort on any entity with paging .
+
+
+The filters and the face of each are in the form of strings . for example filterString : 
+**"CourseId=d1773f09-f17c-4ed0-4e56-08d94509941d¤1µFirstName=Arman¤5µ"**
+
+1-The first thing must be the name of the entity property(case sensitive) and next " = " .
+
+2-" ¤ " for seprate VALUE From OprationEnum (after ¤ oprationEnum is placed)
+
+
+3-" µ " for seprate each filter section .
 
 ### Give a Star
 
