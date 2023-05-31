@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>CleanApplication.WebApi</RootNamespace>
     <AssemblyName>CleanApplication.WebApi</AssemblyName>
     <UserSecretsId>aspnet-WebApi-58672EB4-2691-4613-ACE7-B3CD6A008334</UserSecretsId>
