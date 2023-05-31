@@ -8,7 +8,7 @@ This is a solution template for creating Web Api ASP.NET Core following the prin
 
 ## Technologies
 
-* ASP.NET Core 5
+* ASP.NET Core 6
 * [Entity Framework Core 5](https://docs.microsoft.com/en-us/ef/core/)
 * [ABluePredicateBuilder](https://www.nuget.org/packages/ABluePredicateBuilder/1.0.1)
 * [MediatR](https://github.com/jbogard/MediatR)
@@ -19,7 +19,7 @@ This is a solution template for creating Web Api ASP.NET Core following the prin
 
 ## Getting Started
 
-1. Install the latest [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
+1. Install the latest [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 2. Clone the source code.
 
 8. Navigate to `src/Apps/WebApi` and run  (ASP.NET Core Web API)
