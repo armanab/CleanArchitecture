@@ -1,5 +1,6 @@
 ﻿using CleanApplication.Application.Common.Models;
 using CleanApplication.Application.Dto;
+using CleanApplication.Application.Users.Commands.Create;
 using CleanApplication.Application.Users.Commands.Delete;
 using CleanApplication.Application.Users.Commands.Update;
 using CleanApplication.Application.Users.Queries.GetUserById;
@@ -26,7 +27,7 @@ namespace CleanApplication.WebApi.Controllers
         }
 
         [HttpPost("CreateUser")]
-        public async Task<ActionResult<ServiceResult<UserCreateAdminDto>>> Create(CreateUserCommand command)
+        public async Task<ActionResult<ServiceResult<UserCreateDto>>> Create(CreateUserCommand command)
         {
             return await Mediator.Send(command);
         }
