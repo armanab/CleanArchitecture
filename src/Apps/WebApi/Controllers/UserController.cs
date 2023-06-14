@@ -25,11 +25,11 @@ namespace CleanApplication.WebApi.Controllers
             return await Mediator.Send(new GetUserByIdQuery { Id = id });
         }
 
-        //[HttpPost]
-        //public async Task<ActionResult<ServiceResult<UserCreateAdminDto>>> Create(CreateUserCommand command)
-        //{
-        //    return await Mediator.Send(command);
-        //}
+        [HttpPost("CreateUser")]
+        public async Task<ActionResult<ServiceResult<UserCreateAdminDto>>> Create(CreateUserCommand command)
+        {
+            return await Mediator.Send(command);
+        }
 
         [HttpPut("{id}")]
         public async Task<ActionResult<ServiceResult<ApplicationUserDto>>> Update(Guid id, UpdateUserCommand command)
