@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A2B22BF-D82E-4EA9-AED1-509905A14C05}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0DB4DE95-A457-4B07-ACDD-80C3784C7030}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C8979CE2-B2CE-4A52-8B50-1E03831BB4DB}"
 EndProject
@@ -34,10 +32,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DB4DE95-A457-4B07-ACDD-80C3784C7030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DB4DE95-A457-4B07-ACDD-80C3784C7030}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DB4DE95-A457-4B07-ACDD-80C3784C7030}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DB4DE95-A457-4B07-ACDD-80C3784C7030}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2BB5A920-F31E-4708-A463-93DF20836014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2BB5A920-F31E-4708-A463-93DF20836014}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BB5A920-F31E-4708-A463-93DF20836014}.Release|Any CPU.ActiveCfg = Release|Any CPU
