@@ -1,5 +1,5 @@
 # CleanArchitecture
-Clean Architecture Solution Template for .NET 5 Web Api
+Clean Architecture Solution Template for .NET 6 Web Api
 
 
 <br/>
