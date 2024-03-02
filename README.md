@@ -9,7 +9,7 @@ This is a solution template for creating Web Api ASP.NET Core following the prin
 ## Technologies
 
 * ASP.NET Core 6
-* [Entity Framework Core 5](https://docs.microsoft.com/en-us/ef/core/)
+* [Entity Framework Core 6](https://docs.microsoft.com/en-us/ef/core/)
 * [ABluePredicateBuilder](https://www.nuget.org/packages/ABluePredicateBuilder/1.0.1)
 * [MediatR](https://github.com/jbogard/MediatR)
 * [AutoMapper](https://automapper.org/)
